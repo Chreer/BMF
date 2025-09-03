@@ -1,0 +1,18 @@
+device_id: 2
+
+train_args:
+  map_size: 40
+  max_steps: 400
+  max_episode: 2000
+  render: True
+  save_interval: 20
+  update_interval: 5
+  buffer_capacity: 50000
+  actor_coefficient: 1
+  critic_coefficient: 0.1
+  entropy_coefficient: 0.08
+
+  vae_train: False
+
+  num_classes: 4
+
