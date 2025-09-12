@@ -41,7 +41,7 @@ You can train the model using the following command.
 python train.py
 ```
 
-And the 
+And the default hyperparameters is in file ``config.yaml``.
 
 
 ## Citation
